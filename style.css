@@ -1,0 +1,157 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    padding: 2em;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.hero p {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.price .original-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.price .discounted-price {
+    font-size: 1.5em;
+    color: #e67e22;
+    margin-left: 10px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.hero .btn:hover {
+    background-color: #d35400;
+}
+
+/* About Me and Booking Section */
+.about-booking {
+    padding: 2em;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.about-content {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.yt-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a soft shadow for a nice effect */
+    margin-bottom: 1em; /* Space between image and text */
+}
+
+.about-booking p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    color: #333;
+}
+
+.booking-details ul {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.booking-details li {
+    color: #555;
+    margin-bottom: 0.5em;
+}
+
+.booking-details .btn.large {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #e67e22;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.booking-details .btn.large:hover {
+    background-color: #d35400;
+}
+
+/* Social Media Section */
+.social-media {
+    padding: 2em;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+}
+
+.social-media h2 {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.social-media .social-icon {
+    width: 40px;
+    margin: 0 15px;
+}
+
+.social-icon {
+    font-size: 2em; /* Adjust size as needed */
+    color: #333; /* Default color */
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #e67e22; /* Change color on hover */
+}
+
+.social-media a {
+    text-decoration: none; /* Removes underline */
+    outline: none; /* Removes focus outline */
+}
+
+.social-media a:focus {
+    outline: none; /* Ensures no outline on focus */
+}
