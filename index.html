@@ -6,6 +6,7 @@
     <title>Self-Improvement Coaching Service</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
 </head>
 <body>
 
@@ -44,6 +45,18 @@
             <i class="fab fa-youtube social-icon"></i>
         </a>
     </div>
-
+<!-- Timing Section -->
+<section class="timing">
+    <h2>Available Timing Slots</h2>
+    <p>Select a preferred date for your session:</p>
+    <input type="date" class="date-selector" id="dateSelector">
+    <p>Timing: <strong>10:00 AM - 6:00 PM</strong></p>
+</section>
+<script>
+    // Set the minimum date for the date input to today's date
+    const dateInput = document.getElementById('dateSelector');
+    const today = new Date().toISOString().split('T')[0]; // Get today's date in YYYY-MM-DD format
+    dateInput.setAttribute('min', today);
+</script>
 </body>
 </html>
