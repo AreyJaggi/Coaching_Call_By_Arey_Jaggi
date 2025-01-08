@@ -111,3 +111,58 @@ body {
     line-height: 1.6;
     color: #333;
 }
+/* Styling for the Form Notice Section */
+.form-notice {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fffbe6; /* Light yellow background for attention */
+    border-left: 5px solid #e67e22; /* Orange highlight border */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: left;
+    max-width: 600px;
+}
+
+.form-notice p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333; /* Neutral text color for readability */
+    margin: 0 0 15px 0; /* Add spacing below the paragraph */
+}
+
+.form-notice p strong {
+    color: #e67e22; /* Highlight important text in orange */
+}
+
+.form-notice a.form-link {
+    color: #d35400; /* Bold orange for the link */
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.form-notice a.form-link:hover {
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+}
+
+/* Styling for the Button */
+.form-notice a.form-button {
+    display: inline-block;
+    margin-top: 15px; /* Spacing between the text and button */
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e67e22; /* Orange button color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.form-notice a.form-button:hover {
+    background-color: #d35400; /* Darker orange on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
